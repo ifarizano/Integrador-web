@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Sign up */
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 47px 0;
+    width: 100%;
+    background: #581845;
+}
+
+.sign-form{
+    display: flex;
+    flex-direction: column;
+    background: gray;
+    border-radius: 12px;
+    padding: 50px 50px;
+    gap: 50px;
+}
+
+.signup input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.signup p{
+    font-size: 14px;
+    width: 70%;
+}
+
+.signup a{
+    display: flex;
+    align-self: center;
+    color: white ;
+    background: #581845;
+    max-width: fit-content;
+    border-radius: 8px;
+    padding: 10px 10px;   
+}
+
+/* Login */
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 143px 0; 
+    width: 100%;
+    background: #581845;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: gray;
+    border-radius: 12px;
+    padding: 50px 50px;
+    gap: 50px;
+}
+
+
+
+.login input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.login p{
+    font-size: 14px;
+    width: 70%;
+}
+
+.login a{
+    display: flex;
+    align-self: center;
+    color: white ;
+    background: #581845;
+    max-width: fit-content;
+    border-radius: 8px;
+    padding: 10px 10px;   
+}
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background: #EDDEAD; */
+    background: gray;
+}
+
+/* navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #581845;
+    height: 80px;
+    padding: 0 50px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.);
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 0 50px;
+}
+
+.cart-icon{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 50px;
+    cursor: pointer ;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0px 60px;
+}
+
+.nav__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.navbar-list a{
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar i{
+    font-size: 36px;
+    display: block;
+}
+
+.menu-label{
+    display: none;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+.menu-label{
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+}
+
+
+/*hero*/
+
+main{
+    /* background: #c0b58f; */
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#hero{
+    max-width: 1200px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    min-width: 50%;
+}
+
+.hero-info p{
+    font-size: 14px;
+    width: 70%;
+}
+
+.hero-info a{
+    color: white ;
+    background: #581845;
+    max-width: fit-content;
+    border-radius: 8px;
+    padding: 10px 10px;   
+}
+
+
+.cardh{
+    border-radius: 50px;
+    height: 500px;
+}
+
+/* CARDS */
+
+#productos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: rgb(71, 70, 70);
+    padding: 60px 20px;
+}
+
+.product-title{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.product-p{
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1200px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.692);
+    padding: 0.4rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.card__img {
+    max-width: 278px;
+    border-radius: .8rem;
+}
+
+.card__info{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 30px;
+}
+
+.card__user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user__img{
+    height: 50px;
+    width: 50px;
+    background: url(./img/pelota.jpg) no-repeat center/cover;
+    border-radius: 50%;
+}
+
+.user__title{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.user__desc{
+    color: white;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card__btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn--secondary{
+    background: none;
+    color: white;
+    border: 3px solid white;
+    font-size: 12px;
+}
+
+.btn--primary{
+    background: #952674;
+    color: white;
+}
+
+/* nosotros */
+
+#nosotros{
+    /* background: #c0b58f; */
+    background: rgb(148, 146, 146);
+    display: flex;
+    padding: 60px 20px;
+}
+
+.nos{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 30px; 
+    width: 50%;
+    max-width: 1200px;
+    
+}
+
+.nosotros-title{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800; 
+    padding-left: 75px;
+}
+
+.nosotros-info{
+    display: flex;
+    width: 85%;
+    font-size: 14px;
+    padding-left: 75px;
+}
+
+.us-img{
+    display: flex;;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+} 
+
+.nosotros-img{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;    
+}
+
+
+/* Contacto */
+
+#contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 70px;
+    padding: 60px 20px;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.692);
+    padding: 0.4rem;
+    padding-bottom: 1rem;
+    border-radius: 50px; */
+} 
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding-left: 75px;
+}
+
+
+.contact-title{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 50px 0;
+}
+
+.contacto-datos{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 20px;
+}
+
+
+
+/* Footer */
+
+
+ footer{
+    background-color: #581845;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+ }
+
+ footer a,
+ footer p{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+ }
+
+ .footer-links{
+    display: flex;
+    gap: 20px;
+ }
+
+
+
+ footer span{
+    font-weight: 800;
+ }
+
+

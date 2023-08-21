@@ -1,0 +1,98 @@
+@media(max-width: 992px){
+
+.navbar{
+    gap: 10px; 
+}
+
+.navbar-list{
+    position: absolute;
+    top: 65px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    border: 2px solid #581845;
+    flex-direction: column;
+    background-color: #491339;
+    border-radius: 0px 0px 15px 15px;
+    padding: 45px 30px;
+    align-items: flex-start;
+    display: none;
+}
+
+.navbar-list a{
+    font-size: 18px;
+}
+
+.menu-label{
+    display: flex;
+    cursor: pointer;
+    order: 2;
+}
+
+#menu-toggle:checked ~ .navbar-list{
+    display: flex;
+}
+
+.hero-info{
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero-info a{
+    width: 90%;
+    max-width: 500px;
+}
+
+.hero-card{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.us-img{
+    display: none;
+}
+
+#nosotros{
+    justify-content: center;
+}
+
+.card__img{
+    max-width: 300px;
+}
+
+}
+
+
+@media(max-width: 576px){
+
+    h1{
+        font-size: 40px;
+    }
+
+
+    .hero-info p{
+        width: 100%;   
+    }
+
+    #nosotros{
+    display: none
+    }
+
+    .product-title{
+        font-size: 35px;
+    }
+
+    .contact-title{
+        font-size: 35px;
+    }
+
+    #contacto{
+        max-width: 500px;
+    }
+
+}
